@@ -7,6 +7,7 @@ public class Test1 {
     public static void main(String[] args){
         Method1 m1 = new Method1("线程1");
         Method1 m2 = new Method1("线程2");
+        System.out.println(m1.getName());
         m1.start();
         m2.start();
     }
